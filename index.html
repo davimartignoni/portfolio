@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Davi Barros</title>
+  <title>Davi Martignoni</title>
 
   <!--
     - favicon
@@ -43,11 +43,11 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./images/my-picture.jpg" alt="Davi Barros" width="80" style="border-radius: 30px;">
+          <img src="./images/my-picture.jpg" alt="Davi Martignoni" width="80" style="border-radius: 30px;">
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Davi Barros">Davi Barros</h1>
+          <h1 class="name" title="Davi Martignoni">Davi Martignoni</h1>
 
           <p class="title">Software Engineer</p>
         </div>
@@ -259,7 +259,7 @@
 
                 <div data-project-modal hidden>
                   <!-- <span data-project-app-store-badge data-app-store-url="" aria-label="Download Duckademy on the App Store" hidden></span> -->
-                  <section>
+                  <section class="about-text">
                     <p>
                       Duckademy is a multiplayer tvOS exclusive game where two players use 
                       their iPhone devices as remote controllers in fast-paced agility duels. 
@@ -349,7 +349,7 @@
 
                 <div data-project-modal hidden>
                   <span data-project-app-store-badge data-app-store-url="https://apps.apple.com/us/app/deresenha/id6502218569" aria-label="Download DeResenha on the App Store" hidden></span>
-                  <section>
+                  <section class="about-text">
                     <p>DeResenha elevates social gatherings with fun, collaborative games using just one iPhone.</p>
                     <p>
                       The app includes games like the Chameleon Game, where players identify an impostor through funny debates, 
@@ -380,7 +380,7 @@
 
                 <div data-project-modal hidden>
                   <!-- <span data-project-app-store-badge data-app-store-url="" aria-label="Download Hope Squad on the App Store" hidden></span> -->
-                  <section>
+                  <section class="about-text">
                     <p>Hope Squad is a mobile game designed to make volunteering fun.</p>
                     <p>
                       Players compete in capture-the-flag matches against AI-controlled teams created by other players. 
@@ -423,7 +423,7 @@
 
                 <div data-project-modal hidden>
                   <!-- <span data-project-app-store-badge data-app-store-url="" aria-label="Download Modulus on the App Store" hidden></span> -->
-                  <section>
+                  <section class="about-text">
                     <p>An educational iPad game focused on the fundamentals of linear algebra.</p>
                     <p>
                       Lost in a mysterious plane ruled by the laws of Mathematics, 
@@ -487,7 +487,7 @@
 
                 <div data-project-modal hidden>
                   <!-- <span data-project-app-store-badge data-app-store-url="" aria-label="Download Harmonion on the App Store" hidden></span> -->
-                  <section>
+                  <section class="about-text">
                     <p>An educational iPad game that introduces the ideas behind music composition.</p>
                     <p>
                       In Harmonion, you meet a knight who is in a mission to defeat a dragon, 
@@ -548,7 +548,7 @@
 
                 <div data-project-modal hidden>
                   <span data-project-app-store-badge data-app-store-url="https://apps.apple.com/us/app/reap-the-game/id6744178300" aria-label="Download REAP on the App Store" hidden></span>
-                  <section>
+                  <section class="about-text">
                     <p>A multiplayer game of strategy, bluff, and betrayal set in a pirate universe.</p>
                     <p>
                       After a major heist, players take on the role of greedy crewmates 
@@ -598,7 +598,7 @@
 
                 <div data-project-modal hidden>
                   <span data-project-app-store-badge data-app-store-url="https://apps.apple.com/us/app/raka-feiras-do-rio/id6633444202" aria-label="Download Raka on the App Store" hidden></span>
-                  <section>
+                  <section class="about-text">
                     <p>
                       Discover the soul of Rio de Janeiro with Raka, the app that connects you to the city's vibrant markets. 
                       Inspired by the Guarani word for "roots", Raka celebrates Rio's traditions and cultural diversity, 
@@ -646,7 +646,7 @@
 
                 <div data-project-modal hidden>
                   <!-- <span data-project-app-store-badge data-app-store-url="" aria-label="Download Alfieri on the App Store" hidden></span> -->
-                  <section>
+                  <section class="about-text">
                     <p>
                       A data science tool for chess players who want 
                       performance-based insights for a more targeted study plan.
@@ -692,7 +692,7 @@
 
                 <div data-project-modal hidden>
                   <!-- <span data-project-app-store-badge data-app-store-url="" aria-label="Download Flavify on the App Store" hidden></span> -->
-                  <section>
+                  <section class="about-text">
                     <p>
                       Flavify makes learning more engaging by turning studying into an interactive experience. 
                       The app presents open-ended questions, allowing users to practice their knowledge and receive 
@@ -745,7 +745,7 @@
 
                 <div data-project-modal hidden>
                   <!-- <span data-project-app-store-badge data-app-store-url="" aria-label="Download Akashic Records on the App Store" hidden></span> -->
-                  <section>
+                  <section class="about-text">
                     <p>
                       Discover your next favorite movie with Akashic Records, your go-to guide for the world of streaming. 
                       Explore a vast collection of films, find out where to watch them, and uncover personalized recommendations 
@@ -798,13 +798,21 @@
 
         <section class="about-text">
           <p>
-            I'm a Computer Engineering student from Rio de Janeiro, Brazil, with experience in iOS development,
-            game development, agile project management and algorithms. I'm currently attending a one-year exchange program 
-            at UC San Diego.
+            I'm a Computer Engineering student from Rio de Janeiro, Brazil, with experience in iOS development, game development, 
+            agile project management and algorithms. I'm currently attending a one-year exchange program at UC San Diego.
           </p>
 
           <p>
-            
+            Through my 2-year internship at Apple Developer Academy, I gained practical experience throughout all stages of the 
+            application development lifecycle. While working with multidisciplinary teams, I prototyped, developed and shipped 
+            applications for several Apple platforms. This experience introduced me to software engineering practices including 
+            MVVM, SOLID, automated testing with XCTest, and CI/CD workflows using Xcode Cloud.
+          </p>
+
+          <p>
+            I like to challenge myself, and always aim to exceed expectations. I've won several medals in math olympiads and 
+            participated in scientific initiation programs during secondary and high school. I've also won prizes in coding 
+            competitions as well as academic distinctions while in college.
           </p>
         </section>
 
@@ -1349,7 +1357,7 @@
                   </div>
                   <h3 class="h3 certificate-item-title">English Level C1</h3>
                   <p class="certificate-text">
-                    Certificate demonstrating C1-level English language proficiency.
+                    Certificate demonstrating C1-level English language proficiency. Score: 185/190.
                   </p>
                 </div>
               </a>
